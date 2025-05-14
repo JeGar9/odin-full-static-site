@@ -1,0 +1,150 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+#hero {
+    display: flex;
+    flex-direction: row;
+}
+
+#hero .left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer,
+.section {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    justify-content: space-between;
+    padding: 10px;
+}
+
+footer {
+    justify-content: center;
+}
+
+.section {
+    justify-content: center;
+    padding: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.flex-item {
+    margin: 0;
+}
+
+.left {
+    text-align: left;
+    margin: 0;
+}
+
+.right {
+    text-align: right;
+    margin: 0;
+}
+
+.flex-horizontal {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+header,
+footer,
+#hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#hero .main {
+    font-size: 48px;
+}
+
+#hero .secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#info-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+}
+
+#random_info {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.random-item {
+    width: 15%;
+}
+
+#quote-section {
+    font-size: 36px;
+    color: #1F2937;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-author {
+    font-weight: bold;
+}
+
+#call-to-action {
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+    color: #E5E7EB;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    background-color: #3883F6;
+}
+
+.action-item.left {
+    flex: 3;
+}
+
+.action-item.right {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex: 1;
+}
+
+#sign-in {
+}
